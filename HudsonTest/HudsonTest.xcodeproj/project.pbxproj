@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45EADD0815345C01007D2A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EADD0715345C01007D2A5C /* UIKit.framework */; };
+		45EADD0A15345C01007D2A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EADD0915345C01007D2A5C /* Foundation.framework */; };
+		45EADD0C15345C01007D2A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EADD0B15345C01007D2A5C /* CoreGraphics.framework */; };
+		45EADD1215345C01007D2A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45EADD1015345C01007D2A5C /* InfoPlist.strings */; };
+		45EADD1415345C01007D2A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EADD1315345C01007D2A5C /* main.m */; };
+		45EADD1815345C01007D2A5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EADD1715345C01007D2A5C /* AppDelegate.m */; };
+		45EADD1B15345C01007D2A5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EADD1A15345C01007D2A5C /* ViewController.m */; };
+		45EADD1E15345C01007D2A5C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45EADD1C15345C01007D2A5C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45EADD0315345C01007D2A5C /* HudsonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HudsonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EADD0715345C01007D2A5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45EADD0915345C01007D2A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45EADD0B15345C01007D2A5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45EADD0F15345C01007D2A5C /* HudsonTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HudsonTest-Info.plist"; sourceTree = "<group>"; };
+		45EADD1115345C01007D2A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45EADD1315345C01007D2A5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45EADD1515345C01007D2A5C /* HudsonTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HudsonTest-Prefix.pch"; sourceTree = "<group>"; };
+		45EADD1615345C01007D2A5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45EADD1715345C01007D2A5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45EADD1915345C01007D2A5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45EADD1A15345C01007D2A5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45EADD1D15345C01007D2A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45EADD0015345C01007D2A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EADD0815345C01007D2A5C /* UIKit.framework in Frameworks */,
+				45EADD0A15345C01007D2A5C /* Foundation.framework in Frameworks */,
+				45EADD0C15345C01007D2A5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45EADCF815345C01007D2A5C = {
+			isa = PBXGroup;
+			children = (
+				45EADD0D15345C01007D2A5C /* HudsonTest */,
+				45EADD0615345C01007D2A5C /* Frameworks */,
+				45EADD0415345C01007D2A5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45EADD0415345C01007D2A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45EADD0315345C01007D2A5C /* HudsonTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45EADD0615345C01007D2A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45EADD0715345C01007D2A5C /* UIKit.framework */,
+				45EADD0915345C01007D2A5C /* Foundation.framework */,
+				45EADD0B15345C01007D2A5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45EADD0D15345C01007D2A5C /* HudsonTest */ = {
+			isa = PBXGroup;
+			children = (
+				45EADD1615345C01007D2A5C /* AppDelegate.h */,
+				45EADD1715345C01007D2A5C /* AppDelegate.m */,
+				45EADD1915345C01007D2A5C /* ViewController.h */,
+				45EADD1A15345C01007D2A5C /* ViewController.m */,
+				45EADD1C15345C01007D2A5C /* ViewController.xib */,
+				45EADD0E15345C01007D2A5C /* Supporting Files */,
+			);
+			path = HudsonTest;
+			sourceTree = "<group>";
+		};
+		45EADD0E15345C01007D2A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45EADD0F15345C01007D2A5C /* HudsonTest-Info.plist */,
+				45EADD1015345C01007D2A5C /* InfoPlist.strings */,
+				45EADD1315345C01007D2A5C /* main.m */,
+				45EADD1515345C01007D2A5C /* HudsonTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45EADD0215345C01007D2A5C /* HudsonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EADD2115345C01007D2A5C /* Build configuration list for PBXNativeTarget "HudsonTest" */;
+			buildPhases = (
+				45EADCFF15345C01007D2A5C /* Sources */,
+				45EADD0015345C01007D2A5C /* Frameworks */,
+				45EADD0115345C01007D2A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HudsonTest;
+			productName = HudsonTest;
+			productReference = 45EADD0315345C01007D2A5C /* HudsonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45EADCFA15345C01007D2A5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = VeriQual;
+			};
+			buildConfigurationList = 45EADCFD15345C01007D2A5C /* Build configuration list for PBXProject "HudsonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45EADCF815345C01007D2A5C;
+			productRefGroup = 45EADD0415345C01007D2A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45EADD0215345C01007D2A5C /* HudsonTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45EADD0115345C01007D2A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EADD1215345C01007D2A5C /* InfoPlist.strings in Resources */,
+				45EADD1E15345C01007D2A5C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45EADCFF15345C01007D2A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EADD1415345C01007D2A5C /* main.m in Sources */,
+				45EADD1815345C01007D2A5C /* AppDelegate.m in Sources */,
+				45EADD1B15345C01007D2A5C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45EADD1015345C01007D2A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45EADD1115345C01007D2A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45EADD1C15345C01007D2A5C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45EADD1D15345C01007D2A5C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45EADD1F15345C01007D2A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Erika  Peace (ZD854HYTFX)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "37F7524A-0371-4AFA-928B-50826C1ACEB6";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		45EADD2015345C01007D2A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ICS Nett, Inc";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9E9E6665-BE93-4839-9C8D-2AF967FB98A8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45EADD2215345C01007D2A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HudsonTest/HudsonTest-Prefix.pch";
+				INFOPLIST_FILE = "HudsonTest/HudsonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45EADD2315345C01007D2A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HudsonTest/HudsonTest-Prefix.pch";
+				INFOPLIST_FILE = "HudsonTest/HudsonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45EADCFD15345C01007D2A5C /* Build configuration list for PBXProject "HudsonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EADD1F15345C01007D2A5C /* Debug */,
+				45EADD2015345C01007D2A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EADD2115345C01007D2A5C /* Build configuration list for PBXNativeTarget "HudsonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EADD2215345C01007D2A5C /* Debug */,
+				45EADD2315345C01007D2A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45EADCFA15345C01007D2A5C /* Project object */;
+}

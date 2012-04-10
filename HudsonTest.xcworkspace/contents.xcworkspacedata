@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Hudson_iOS/Hudson_iOS.xcodeproj">
+      location = "group:HudsonTest/HudsonTest.xcodeproj">
    </FileRef>
 </Workspace>
