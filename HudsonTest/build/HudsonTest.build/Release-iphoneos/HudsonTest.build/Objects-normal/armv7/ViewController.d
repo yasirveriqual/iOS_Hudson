@@ -1,3 +1,3 @@
 dependencies: \
-  /Projects/Personal/Workspace/HudsonTest/HudsonTest/ViewController.m \
-  /Projects/Personal/Workspace/HudsonTest/HudsonTest/ViewController.h
+  /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/ViewController.m \
+  /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/ViewController.h

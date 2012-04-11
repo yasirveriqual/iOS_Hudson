@@ -1,2 +1,2 @@
-dependencies: /Projects/Personal/Workspace/HudsonTest/HudsonTest/main.m \
-  /Projects/Personal/Workspace/HudsonTest/HudsonTest/AppDelegate.h
+dependencies: /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/main.m \
+  /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/AppDelegate.h
