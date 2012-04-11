@@ -2,16 +2,16 @@ THudsonTest
 v5
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/Info.plist HudsonTest/HudsonTest-Info.plist
 cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/HudsonTest.app/ResourceRules.plist
+cProcessInfoPlistFile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/Info.plist HudsonTest/HudsonTest-Info.plist
 cProcessPCH /var/folders/bn/tvf7zj3929s_d2v7dr1gwtj40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HudsonTest-Prefix-ancfzwdciaywrpejvvwpxuufwfvw/HudsonTest-Prefix.pch.pth HudsonTest/HudsonTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/AppDelegate.o /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/main.o /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/ViewController.o /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/AppDelegate.o /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest normal armv7
 cGenerateDSYMFile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest
-cCopyStringsFile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj/InfoPlist.strings HudsonTest/en.lproj/InfoPlist.strings
 cCompileXIB /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/ViewController.xib
+cCopyStringsFile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj/InfoPlist.strings HudsonTest/en.lproj/InfoPlist.strings
 cProcessProductPackaging "/Users/yasir-ali/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision
 cProcessProductPackaging "/Users/yasir-ali/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision
 cTouch /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app
@@ -79,6 +79,11 @@ c000000004E7808C7000000000078BE50
 t1316489415
 s7913040
 
+N/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/AppDelegate.h
+c000000004F8589F4000000000000016A
+t1334151668
+s362
+
 N/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/AppDelegate.m
 c000000004F8589F40000000000000A0D
 t1334151668
@@ -88,6 +93,11 @@ N/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/HudsonTest-Prefix.pch
 c000000004F8589F40000000000000143
 t1334151668
 s323
+
+N/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/ViewController.h
+c000000004F8589F400000000000000D5
+t1334151668
+s213
 
 N/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/ViewController.m
 c000000004F8589F4000000000000045D
@@ -100,9 +110,9 @@ t1334151668
 s45
 
 N/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/ViewController.xib
-c000000004F8589F40000000000001BB8
-t1334151668
-s7096
+c000000004F858F180000000000001CB2
+t1334152984
+s7346
 
 N/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/main.m
 c000000004F8589F4000000000000014E
@@ -110,12 +120,12 @@ t1334151668
 s334
 
 N/Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent
-t1334151668
+t1334153060
 s480
 
 N/Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/AppDelegate.o
-t1334151668
-s52952
+t1334151978
+s63068
 
 N/Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/HudsonTest.LinkFileList
 c000000004F858B290000000000000185
@@ -123,12 +133,12 @@ t1334151977
 s389
 
 N/Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/ViewController.o
-t1334151668
-s40636
+t1334151978
+s48364
 
 N/Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/main.o
-t1334151668
-s2852
+t1334151978
+s3348
 
 N/Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/com.apple.build-tools.platform.validate
 t2
@@ -282,29 +292,29 @@ t1334056297
 s7302
 
 N/var/folders/bn/tvf7zj3929s_d2v7dr1gwtj40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HudsonTest-Prefix-ancfzwdciaywrpejvvwpxuufwfvw/HudsonTest-Prefix.pch.pth
-t2
-s0
+t1334151978
+s3960600
 
 N/var/folders/hh/rrphvbtj0cdb2f03zvx6k8740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HudsonTest-Prefix-byntsbulfdprafepbswysvvkmrkx/HudsonTest-Prefix.pch.pth
 t1334066608
 s3847068
 
 NHudsonTest/HudsonTest-Info.plist
-c000000004F858B2800000000000004E3
-t1334151976
+c000000004F858FBB00000000000004E3
+t1334153147
 s1251
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd6a94aa9c235b541^9695eaa9c235b541^---0#1#0#--18"Check dependencies36"2537CD1F-4D48-47DA-A3B9-A186451BE40F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies90a3853cc735b541^ffb1103dc735b541^---0#1#0#--18"Check dependencies36"CC410AE5-F70E-4727-9236-8C288C684AAA-
 
 CCodeSign /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app
-s355844779.659170
-e355844779.845325
+s355845949.315521
+e355845949.583608
 r1
 xCodeSign
 x/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Release-iphoneos/HudsonTest.appd3dea8abc235b541^b669d8abc235b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/0000000000000000^842"CodeSign build/Release-iphoneos/HudsonTest.app    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/codesign --force --sign 192093bffe6136aa11da9238ff6a26734ccbfdda --resource-rules=/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/ResourceRules.plist --entitlements /Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app36"8D1B1D28-3AFE-4C9F-AC75-13D57BD34E10-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Release-iphoneos/HudsonTest.appe8dd503dc735b541^876f953dc735b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/0000000000000000^842"CodeSign build/Release-iphoneos/HudsonTest.app    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/codesign --force --sign 192093bffe6136aa11da9238ff6a26734ccbfdda --resource-rules=/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/ResourceRules.plist --entitlements /Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app36"13394E70-51FA-44AF-B105-D427AFF11E95-
 
 CCodeSign /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app
 s355839366.566716
@@ -393,12 +403,12 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Projects/Personal/Workspace/HudsonTest/HudsonTest/main.m8d255c307534b541^7a5286307534b541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Projects/Personal/Workspace/HudsonTest/HudsonTest/main.m0000000000000000^2604"CompileC build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/main.o HudsonTest/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/Personal/Workspace/HudsonTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest-generated-files.hmap -I/Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest-own-target-headers.hmap -I/Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest-all-target-headers.hmap -iquote /Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest-project-headers.hmap -I/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/include -I/Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/DerivedSources/armv7 -I/Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/DerivedSources -F/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/hh/rrphvbtj0cdb2f03zvx6k8740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HudsonTest-Prefix-byntsbulfdprafepbswysvvkmrkx/HudsonTest-Prefix.pch -MMD -MT dependencies -MF /Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/main.d -c /Projects/Personal/Workspace/HudsonTest/HudsonTest/main.m -o /Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/main.o36"608A82CD-5CDA-4211-A2D5-8D8294D270B3-
 
 CCompileXIB /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/ViewController.xib
-s355844778.516629
-e355844779.584375
+s355845949.198512
+e355845949.232592
 r1
 xCompileXIB
 x/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/ViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compiling /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/ViewController.xibd15b84aac235b541^54a995abc235b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/ViewController.xib0000000000000000^880"CompileXIB HudsonTest/en.lproj/ViewController.xib    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj/ViewController.nib /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/ViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"1CFCE66F-02F8-4F2C-ACBE-DB85C172B08B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compiling /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/ViewController.xib1bf3323dc735b541^768c3b3dc735b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/ViewController.xib0000000000000000^880"CompileXIB HudsonTest/en.lproj/ViewController.xib    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj/ViewController.nib /Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/ViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"E61F2297-920F-49DF-BA20-4E21444A3839-
 
 CCompileXIB /Projects/Personal/Workspace/HudsonTest/HudsonTest/en.lproj/ViewController.xib
 s355839363.634998
@@ -410,13 +420,13 @@ oCouldn't open shared capabilities memory GSCapabilities (No such file or direct
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Projects/Personal/Workspace/HudsonTest/HudsonTest/en.lproj/ViewController.xibdfa3a283ad35b541^21cb7686ad35b541^-84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)-0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Projects/Personal/Workspace/HudsonTest/HudsonTest/en.lproj/ViewController.xib0000000000000000^742"CompileXIB HudsonTest/en.lproj/ViewController.xib    cd /Projects/Personal/Workspace/HudsonTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj/ViewController.nib /Projects/Personal/Workspace/HudsonTest/HudsonTest/en.lproj/ViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"96D91E46-7C0A-462D-A3DF-2CB32EF00E3D-
 
 CCopyStringsFile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj/InfoPlist.strings HudsonTest/en.lproj/InfoPlist.strings
-s355844778.516621
-e355844778.521235
+s355845949.198528
+e355845949.230612
 r1
 xCopyStringsFile
 x/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj/InfoPlist.strings
 xHudsonTest/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy HudsonTest/en.lproj/InfoPlist.stringsea5d84aac235b541^3a7985aac235b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/InfoPlist.strings0000000000000000^598"CopyStringsFile build/Release-iphoneos/HudsonTest.app/en.lproj/InfoPlist.strings HudsonTest/en.lproj/InfoPlist.strings    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj -- HudsonTest/en.lproj/InfoPlist.strings36"937FBA3A-FC37-40E2-A0B1-14FE15C01402-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy HudsonTest/en.lproj/InfoPlist.stringsd5eb323dc735b541^5f0a3b3dc735b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/en.lproj/InfoPlist.strings0000000000000000^598"CopyStringsFile build/Release-iphoneos/HudsonTest.app/en.lproj/InfoPlist.strings HudsonTest/en.lproj/InfoPlist.strings    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj -- HudsonTest/en.lproj/InfoPlist.strings36"5F7D6863-FFCC-4493-9683-1270AFB21C69-
 
 CCopyStringsFile /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj/InfoPlist.strings HudsonTest/en.lproj/InfoPlist.strings
 s355839363.634435
@@ -428,13 +438,13 @@ xHudsonTest/en.lproj/InfoPlist.strings
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy HudsonTest/en.lproj/InfoPlist.strings6685a283ad35b541^0c95a383ad35b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Projects/Personal/Workspace/HudsonTest/HudsonTest/en.lproj/InfoPlist.strings0000000000000000^555"CopyStringsFile build/Release-iphoneos/HudsonTest.app/en.lproj/InfoPlist.strings HudsonTest/en.lproj/InfoPlist.strings    cd /Projects/Personal/Workspace/HudsonTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/en.lproj -- HudsonTest/en.lproj/InfoPlist.strings36"AA4F137D-46E8-4977-A0A0-F901D8FFF0FA-
 
 CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/HudsonTest.app/ResourceRules.plist
-s355844777.932707
-e355844777.939033
+s355845949.073669
+e355845949.086705
 r1
 xCpResource
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
 xbuild/Release-iphoneos/HudsonTest.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphoneos/HudsonTest.app/ResourceRules.plist23f9eea9c235b541^d063f0a9c235b541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/ResourceRules.plist000000000080d041^890"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/HudsonTest.app/ResourceRules.plist    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app36"0964B4D0-C0A5-438A-BEE9-964B2AD87B42-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphoneos/HudsonTest.app/ResourceRules.plist5584133dc735b541^1134163dc735b541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/ResourceRules.plist000000f07c041042^890"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/HudsonTest.app/ResourceRules.plist    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app36"28E1F13E-5451-43D7-97B6-F1BC217FDF08-
 
 CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/HudsonTest.app/ResourceRules.plist
 s355839363.484751
@@ -446,13 +456,13 @@ xbuild/Release-iphoneos/HudsonTest.app/ResourceRules.plist
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphoneos/HudsonTest.app/ResourceRules.plistea3e7c83ad35b541^cee37c83ad35b541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/ResourceRules.plist000080ab7c031042^678"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/HudsonTest.app/ResourceRules.plist    cd /Projects/Personal/Workspace/HudsonTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app36"C7628A93-0277-4D7F-B991-61996886C774-
 
 CGenerateDSYMFile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest
-s355844778.487774
-e355844778.508572
+s355845949.152492
+e355845949.189944
 r1
 xGenerateDSYMFile
 x/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM
 x/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Generating /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYMe4f57caac235b541^ef3b82aac235b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM000000000080d041^608"GenerateDSYMFile build/Release-iphoneos/HudsonTest.app.dSYM build/Release-iphoneos/HudsonTest.app/HudsonTest    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest -o /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM36"84ECC621-A7B6-4D0C-9C70-71473CB45FAD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Generating /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM4320273dc735b541^e0a1303dc735b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM000000000080d041^608"GenerateDSYMFile build/Release-iphoneos/HudsonTest.app.dSYM build/Release-iphoneos/HudsonTest.app/HudsonTest    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest -o /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM36"AEC30373-1098-4DCD-A880-66E849A49D38-
 
 CGenerateDSYMFile /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest
 s355839363.594769
@@ -464,14 +474,14 @@ x/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/H
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Generating /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYMa75d9883ad35b541^3108a083ad35b541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM00f41819dfffdf42^534"GenerateDSYMFile build/Release-iphoneos/HudsonTest.app.dSYM build/Release-iphoneos/HudsonTest.app/HudsonTest    cd /Projects/Personal/Workspace/HudsonTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest -o /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app.dSYM36"892AA94E-0DBA-4EED-A6E7-A6582DA54F59-
 
 CLd /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest normal armv7
-s355844778.448620
-e355844778.480928
+s355845949.119523
+e355845949.145391
 r1
 xLd
 x/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest
 xnormal
 xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest850573aac235b541^5c1e7baac235b541^---0#0#0#--1062"Ld build/Release-iphoneos/HudsonTest.app/HudsonTest normal armv7    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos -F/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos -filelist /Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/HudsonTest.LinkFileList -dead_strip -miphoneos-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest36"467157B5-2B85-4A89-AAA2-8C0240760951-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest61c41e3dc735b541^9b38253dc735b541^---0#0#0#--1062"Ld build/Release-iphoneos/HudsonTest.app/HudsonTest normal armv7    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos -F/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos -filelist /Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/HudsonTest.LinkFileList -dead_strip -miphoneos-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest36"100C8FFD-7B00-4E70-ABEA-5D6701E67FF9-
 
 CLd /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest normal armv7
 s355839363.514620
@@ -484,13 +494,13 @@ xarmv7
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Link /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTesteae98383ad35b541^88819683ad35b541^---0#0#0#--960"Ld build/Release-iphoneos/HudsonTest.app/HudsonTest normal armv7    cd /Projects/Personal/Workspace/HudsonTest    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos -F/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos -filelist /Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/Objects-normal/armv7/HudsonTest.LinkFileList -dead_strip -miphoneos-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/HudsonTest36"2D6FA6C4-C287-4E42-953E-1523889D7782-
 
 CProcessInfoPlistFile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/Info.plist HudsonTest/HudsonTest-Info.plist
-s355844777.932702
-e355844778.063722
+s355845949.075852
+e355845949.088512
 r1
 xProcessInfoPlistFile
 x/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/Info.plist
 xHudsonTest/HudsonTest-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process HudsonTest/HudsonTest-Info.plistcff8eea9c235b541^725210aac235b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/HudsonTest-Info.plist0000000000000000^786"ProcessInfoPlistFile build/Release-iphoneos/HudsonTest.app/Info.plist HudsonTest/HudsonTest-Info.plist    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-infoPlistUtility HudsonTest/HudsonTest-Info.plist -genpkginfo /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/ResourceRules.plist -o /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/Info.plist36"0FB39020-D370-462F-9CD0-668000783BC6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process HudsonTest/HudsonTest-Info.plistfaf1133dc735b541^97a8163dc735b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/HudsonTest/HudsonTest-Info.plist0000000000000000^786"ProcessInfoPlistFile build/Release-iphoneos/HudsonTest.app/Info.plist HudsonTest/HudsonTest-Info.plist    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-infoPlistUtility HudsonTest/HudsonTest-Info.plist -genpkginfo /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/ResourceRules.plist -o /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/Info.plist36"D9107548-ED17-478A-97E7-9B7E9340084E-
 
 CProcessInfoPlistFile /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/Info.plist HudsonTest/HudsonTest-Info.plist
 s355839363.485227
@@ -528,13 +538,13 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile HudsonTest/HudsonTest-Prefix.pch8f178e2f7534b541^8b5458307534b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Projects/Personal/Workspace/HudsonTest/HudsonTest/HudsonTest-Prefix.pch0000000000000000^2635"ProcessPCH /var/folders/hh/rrphvbtj0cdb2f03zvx6k8740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HudsonTest-Prefix-byntsbulfdprafepbswysvvkmrkx/HudsonTest-Prefix.pch.pth HudsonTest/HudsonTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/Personal/Workspace/HudsonTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest-generated-files.hmap -I/Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest-own-target-headers.hmap -I/Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest-all-target-headers.hmap -iquote /Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest-project-headers.hmap -I/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/include -I/Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/DerivedSources/armv7 -I/Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/DerivedSources -F/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -c /Projects/Personal/Workspace/HudsonTest/HudsonTest/HudsonTest-Prefix.pch -o /var/folders/hh/rrphvbtj0cdb2f03zvx6k8740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HudsonTest-Prefix-byntsbulfdprafepbswysvvkmrkx/HudsonTest-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hh/rrphvbtj0cdb2f03zvx6k8740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HudsonTest-Prefix-byntsbulfdprafepbswysvvkmrkx/HudsonTest-Prefix.pch.d36"67AE7B2A-ABDF-4B08-86C0-08B34E49EC03-
 
 CProcessProductPackaging "/Users/yasir-ali/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision
-s355844779.604765
-e355844779.608798
+s355845949.255403
+e355845949.260386
 r1
 xProcessProductPackaging
 x/Users/yasir-ali/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision
 x/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging "/Users/yasir-ali/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" build/Release-iphoneos/HudsonTest.app/embedded.mobileprovisione3fb9aabc235b541^14079cabc235b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision0000000000000000^720"ProcessProductPackaging "/Users/yasir-ali/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-productPackagingUtility "/Users/yasir-ali/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" -o /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision36"CB026079-D3EE-4C91-B99A-A2EF5704047B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging "/Users/yasir-ali/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" build/Release-iphoneos/HudsonTest.app/embedded.mobileprovisione57c413dc735b541^92ad423dc735b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision0000000000000000^720"ProcessProductPackaging "/Users/yasir-ali/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-productPackagingUtility "/Users/yasir-ali/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" -o /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision36"2062839B-0B2E-41B8-98CA-25EE51B31921-
 
 CProcessProductPackaging "/Users/yasir/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision
 s355839366.489217
@@ -546,13 +556,13 @@ x/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/e
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection197"ProcessProductPackaging "/Users/yasir/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision97587d86ad35b541^69557f86ad35b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision0000000000000000^669"ProcessProductPackaging "/Users/yasir/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision    cd /Projects/Personal/Workspace/HudsonTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-productPackagingUtility "/Users/yasir/Library/MobileDevice/Provisioning Profiles/9E9E6665-BE93-4839-9C8D-2AF967FB98A8.mobileprovision" -o /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app/embedded.mobileprovision36"A95A17BF-9505-46AE-A72E-AC3CF47C6E29-
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent
-s355844779.632006
-e355844779.651151
+s355845949.283922
+e355845949.307092
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
 x/Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection218"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent08e5a1abc235b541^e6b1a6abc235b541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent0000000000000000^780"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent36"687DED72-11A6-4D67-992B-6BDC1B0876ED-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection218"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent3ece483dc735b541^0a9e4e3dc735b541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent0000000000000000^780"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Projects/Hudson/iOS_Hudson/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent36"8DFAAA85-1C23-46BD-A957-39FE6478686A-
 
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent
 s355839366.531964
@@ -564,12 +574,12 @@ x/Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection186"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent45498886ad35b541^950d8f86ad35b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent0000000000000000^673"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent    cd /Projects/Personal/Workspace/HudsonTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Projects/Personal/Workspace/HudsonTest/build/HudsonTest.build/Release-iphoneos/HudsonTest.build/HudsonTest.xcent36"0E7FBC8F-4CB5-4720-926F-2F6714DAEF77-
 
 CTouch /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app
-s355844779.616490
-e355844779.623307
+s355845949.268499
+e355845949.275765
 r1
 xTouch
 x/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Touch /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.appeeee9dabc235b541^b4919fabc235b541^---0#0#0#--405"Touch build/Release-iphoneos/HudsonTest.app    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/touch -c /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app36"91B006CA-255D-4532-B0E1-3D88B28D1D34-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Touch /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app4ef1443dc735b541^3199463dc735b541^---0#0#0#--405"Touch build/Release-iphoneos/HudsonTest.app    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/touch -c /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app36"318AF533-BBBC-4F85-8402-86D761A10647-
 
 CTouch /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app
 s355839366.505846
@@ -580,15 +590,15 @@ x/Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.appa7968186ad35b541^92078686ad35b541^---0#0#0#--362"Touch build/Release-iphoneos/HudsonTest.app    cd /Projects/Personal/Workspace/HudsonTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/bin/touch -c /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app36"A499C09C-D506-4613-8DC7-6A1955DE9329-
 
 CValidate /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app
-s355844779.853483
-e355844781.281755
+s355845949.592005
+e355845950.087520
 r1
 xValidate
 x/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app
 owarning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)
 oUnable to validate your application. - (null)
 o
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Validate build/Release-iphoneos/HudsonTest.appee98daabc235b541^8d2548adc235b541^-248"warning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)Unable to validate your application. - (null)1(21%IDEActivityLogMessage2@192" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)182"IPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72355844781#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@93"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/0000000000000000^549"Validate build/Release-iphoneos/HudsonTest.app    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app36"A4D2C6DD-CFD8-47A5-8513-614D5759D748-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Validate build/Release-iphoneos/HudsonTest.appd6ac973dc735b541^bf80163ec735b541^-248"warning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)Unable to validate your application. - (null)1(21%IDEActivityLogMessage2@192" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)182"IPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72355845950#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@93"file://localhost/Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app/0000000000000000^549"Validate build/Release-iphoneos/HudsonTest.app    cd /Projects/Hudson/iOS_Hudson/HudsonTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Projects/Hudson/iOS_Hudson/HudsonTest/build/Release-iphoneos/HudsonTest.app36"49B9DF3B-8656-4DA7-882A-CD2FFB717125-
 
 CValidate /Projects/Personal/Workspace/HudsonTest/build/Release-iphoneos/HudsonTest.app
 s355839366.851593

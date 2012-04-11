@@ -10,7 +10,7 @@
                    <key>kind</key>
                    <string>software-package</string>
                    <key>url</key>
-                   <string>http://69.33.0.204/test_ipa/HudsonTest-Release-Hudson%20Test-50.ipa</string>  
+                   <string>http://69.33.0.204/test_ipa/HudsonTest-Release-Hudson%20Test-52.ipa</string>  
                </dict>
                <dict>
                    <key>kind</key>
@@ -34,7 +34,7 @@
                <key>bundle-identifier</key>
                <string>icsnett.incident-tracker</string>
                <key>bundle-version</key>
-               <string>HudsonTest-Release-Hudson%20Test-50</string> 
+               <string>HudsonTest-Release-Hudson%20Test-52</string> 
                <key>kind</key>
                <string>software</string>
                <key>title</key>
